@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Glass Box | Premium Architectural Dining</title>
+    <!-- Modern Typography: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+   <link rel="stylesheet" href="glassbox.css">
+   <script src="glassbox.js"></script>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container nav-content">
+            <a href="#" class="logo">
+                <i data-lucide="box"></i>
+                <span>The Glass Box</span>
+            </a>
+            <div class="nav-links">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#features" class="nav-link">Philosophy</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#gallery" class="nav-link">Gallery</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <a href="#contact" class="btn btn-primary btn-sm" style="padding: 6px 16px; font-size: 12px; color: #fff;">Book Table</a>
+            </div>
+            <button class="menu-btn" id="menu-toggle">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#features" class="nav-link">Philosophy</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#gallery" class="nav-link">Gallery</a>
+        <a href="#contact" class="nav-link">Contact</a>
+        <a href="#contact" class="btn btn-primary">Book Now</a>
+    </div>
+
+    <main>
+        <!-- HERO -->
+        <section class="hero" id="home">
+            <div class="container hero-content">
+                <span class="section-tag reveal-target" style="color: rgba(255,255,255,0.8);">Now Open in Patna</span>
+                <h1 class="hero-title reveal-target">Transparency is the new luxury.</h1>
+                <p class="hero-subtitle reveal-target">Step into an architectural marvel where glass meets gourmet, creating an immersive dining experience unlike any other.</p>
+                <div class="btn-group reveal-target">
+                    <a href="#contact" class="btn btn-primary">Book an Evening</a>
+                    <a href="#features" class="btn btn-secondary">Explore the Vision</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- FEATURES -->
+        <section class="section container" id="features">
+            <div class="section-header reveal-target">
+                <span class="section-tag">Philosophy</span>
+                <h2 class="section-title">Engineered for Elegance.</h2>
+            </div>
+            <div class="grid">
+                <div class="card reveal-target delay-1">
+                    <div class="card-icon"><i data-lucide="sun"></i></div>
+                    <h3 class="card-title">Daylight Bloom</h3>
+                    <p class="card-desc">Our intelligent glass structures capture the golden hour perfectly, bathing your meal in natural, warm light.</p>
+                </div>
+                <div class="card reveal-target delay-2">
+                    <div class="card-icon"><i data-lucide="chef-hat"></i></div>
+                    <h3 class="card-title">Curation</h3>
+                    <p class="card-desc">A menu that respects tradition while embracing molecular techniques. Every plate is a visual masterpiece.</p>
+                </div>
+                <div class="card reveal-target delay-3">
+                    <div class="card-icon"><i data-lucide="shield-check"></i></div>
+                    <h3 class="card-title">Elite Privacy</h3>
+                    <p class="card-desc">Despite the transparency, our acoustics and spatial design ensure your conversations remain strictly yours.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- EXPERIENCE -->
+        <section class="section" id="experience" style="background-color: #fbfbfd;">
+            <div class="container">
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 60px; align-items: center;">
+                    <div class="reveal-target">
+                        <span class="section-tag">Atmosphere</span>
+                        <h2 class="section-title" style="margin-bottom: 24px;">A sanctuary for the senses.</h2>
+                        <p class="card-desc" style="margin-bottom: 32px;">We've eliminated the walls between the kitchen and the guest. Watch as world-class chefs prepare your meal with the precision of a watchmaker.</p>
+                        <ul style="list-style: none;">
+                            <li style="margin-bottom: 12px; display: flex; align-items: center; gap: 10px; font-weight: 500;">
+                                <i data-lucide="check-circle" style="color: var(--primary); width: 18px;"></i> Smart-Tinting Glass
+                            </li>
+                            <li style="margin-bottom: 12px; display: flex; align-items: center; gap: 10px; font-weight: 500;">
+                                <i data-lucide="check-circle" style="color: var(--primary); width: 18px;"></i> Sustainable Materials
+                            </li>
+                            <li style="margin-bottom: 12px; display: flex; align-items: center; gap: 10px; font-weight: 500;">
+                                <i data-lucide="check-circle" style="color: var(--primary); width: 18px;"></i> Live Jazz Evenings
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="reveal-target" style="position: relative;">
+                        <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&q=80&w=800" alt="Cafe Interior" style="width: 100%; border-radius: 30px; box-shadow: 0 40px 80px rgba(0,0,0,0.12);">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- GALLERY SECTION -->
+        <section class="section container" id="gallery">
+            <div class="section-header reveal-target">
+                <span class="section-tag">Atmosphere</span>
+                <h2 class="section-title underlined">Experience Our Atmosphere</h2>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item reveal-target delay-1">
+                    <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&q=80&w=600" alt="Atmospheric Interior">
+                </div>
+                <div class="gallery-item reveal-target delay-2">
+                    <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=80&w=600" alt="Exquisite Dish">
+                </div>
+                <div class="gallery-item reveal-target delay-3">
+                    <img src="https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&q=80&w=600" alt="Elegant Dining Area">
+                </div>
+                <div class="gallery-item reveal-target delay-1">
+                    <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&q=80&w=600" alt="Modern Architecture">
+                </div>
+                <div class="gallery-item reveal-target delay-2">
+                    <img src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&q=80&w=600" alt="Fine Wine & Cocktails">
+                </div>
+                <div class="gallery-item reveal-target delay-3">
+                    <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&q=80&w=600" alt="Chef's Special">
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="section container" id="contact">
+            <div class="cta-box reveal-target">
+                <h2 class="section-title">Join the Inner Circle.</h2>
+                <p class="card-desc" style="margin-top: 16px;">Reservations are highly recommended. Subscribe for seasonal menu updates and private event invitations.</p>
+                <form class="form-group" onsubmit="event.preventDefault(); alert('Reservation inquiry sent!');">
+                    <input type="email" class="form-input" placeholder="Enter your email" required>
+                    <button type="submit" class="btn btn-primary">Join Waitlist</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <a href="#" class="logo" style="color: #fff; margin-bottom: 20px;">The Glass Box</a>
+                    <p style="color: #86868b; font-size: 14px;">The intersection of architecture and flavor. Established 2024.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Discover</h4>
+                    <a href="#" class="footer-link">The Menu</a>
+                    <a href="#" class="footer-link">Reservations</a>
+                    <a href="#" class="footer-link">The Story</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Support</h4>
+                    <a href="#" class="footer-link">Accessibility</a>
+                    <a href="#" class="footer-link">Contact Us</a>
+                    <a href="#" class="footer-link">Privacy Policy</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow</h4>
+                    <a href="#" class="footer-link">Instagram</a>
+                    <a href="#" class="footer-link">Twitter</a>
+                    <a href="#" class="footer-link">Threads</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 The Glass Box. Built with precision.</p>
+                <div style="display: flex; gap: 24px;">
+                    <span>Patna, Bihar</span>
+                    <span>9:00 AM — 11:00 PM</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+  
+</body>
+</html>
